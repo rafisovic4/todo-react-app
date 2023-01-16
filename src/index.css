@@ -11,3 +11,73 @@ body {
   font-family: sans-serif;
   font-weight: 400;
 }
+
+.todo {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.todo_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-top: 100px;
+}
+
+.todo_h2 {
+  font-size: 25px;
+}
+
+.todo_input {
+  padding: 15px 0;
+  padding-left: 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 450px;
+  border: 1px solid #1c1c1c;
+}
+
+.todo_bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  border: 1px solid #1c1c1c;
+  border-radius: 16px;
+}
+
+.todo_one_elem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 10px;
+  align-items: center;
+}
+
+.todo_button {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.button_accept {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: aquamarine;
+  border: none;
+  font-weight: 600;
+}
+
+.button_delete {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  font-weight: 600;
+  color: white;
+}
